@@ -1,5 +1,5 @@
 {% set name = "luts" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/luts-{{ version }}.tar.gz
-  sha256: 6b1eef10fc9bed85977c7c4e19d556206c6d887d8a820f9ae5f66ef9e2064a3b
+  sha256: 2a96c685c31c4567bb164cd846ab5344d8e42a582c04826da1170e0832368466
 
 build:
   noarch: python
